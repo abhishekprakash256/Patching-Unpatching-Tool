@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "patching_unpatching"
+version = "1.0"
+description = "A tool to cut image to make patches and combine them to make image images"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "3.8.5"
+numpy = "~1.19.2"
+torch = "1.4.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
