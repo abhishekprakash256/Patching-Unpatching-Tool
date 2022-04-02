@@ -8,7 +8,10 @@ Patching and Unpatching are a set of tools that are used for image processing. T
 poetry build 
 poetry install patching_unpatching-1.0-py3-none-any.whl
 ```
-
+## To use 
+```python
+from patching_unpatching.patching_unpatching import patching_input, unpatching
+```
 
 
 ## Patching Tool 
