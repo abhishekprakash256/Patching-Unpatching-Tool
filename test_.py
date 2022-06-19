@@ -8,7 +8,7 @@ padding taken as 0 and 10, types of tensor taken - single channel, three channel
 #pylint: disable= unused-import
 import pytest
 import numpy as np
-import torch
+import torch    
 import torch.nn as nn
 import torch.nn.functional as F
 
